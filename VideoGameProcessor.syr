@@ -1,0 +1,810 @@
+Release 13.4 - xst O.87xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> 
+Reading design: VideoGameProcessor.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "VideoGameProcessor.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "VideoGameProcessor"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : VideoGameProcessor
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/student2/t11ngo/COE758/Project 2/VGAController/ClockGenerator.vhd" in Library work.
+Architecture behavioral of Entity clockgenerator is up to date.
+Compiling vhdl file "/home/student2/t11ngo/COE758/Project 2/VGAController/SynchronizationCalculator.vhd" in Library work.
+Architecture behavioral of Entity synchronizationcalculator is up to date.
+Compiling vhdl file "/home/student2/t11ngo/COE758/Project 2/VGAController/GameLogic.vhd" in Library work.
+Entity <colorlogic> compiled.
+Entity <colorlogic> (Architecture <behavioral>) compiled.
+Compiling vhdl file "/home/student2/t11ngo/COE758/Project 2/VGAController/MovementLogic.vhd" in Library work.
+Architecture behavioral of Entity movementlogic is up to date.
+Compiling vhdl file "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.vhd" in Library work.
+Architecture behavioral of Entity videogameprocessor is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <VideoGameProcessor> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ClockGenerator> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <SynchronizationCalculator> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ColorLogic> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <MovementLogic> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <VideoGameProcessor> in library <work> (Architecture <behavioral>).
+Entity <VideoGameProcessor> analyzed. Unit <VideoGameProcessor> generated.
+
+Analyzing Entity <ClockGenerator> in library <work> (Architecture <behavioral>).
+Entity <ClockGenerator> analyzed. Unit <ClockGenerator> generated.
+
+Analyzing Entity <SynchronizationCalculator> in library <work> (Architecture <behavioral>).
+Entity <SynchronizationCalculator> analyzed. Unit <SynchronizationCalculator> generated.
+
+Analyzing Entity <ColorLogic> in library <work> (Architecture <behavioral>).
+Entity <ColorLogic> analyzed. Unit <ColorLogic> generated.
+
+Analyzing Entity <MovementLogic> in library <work> (Architecture <behavioral>).
+Entity <MovementLogic> analyzed. Unit <MovementLogic> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <ClockGenerator>.
+    Related source file is "/home/student2/t11ngo/COE758/Project 2/VGAController/ClockGenerator.vhd".
+    Found 1-bit register for signal <DAC_Clk>.
+    Found 32-bit up counter for signal <count>.
+    Found 1-bit register for signal <tempClock>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   2 D-type flip-flop(s).
+Unit <ClockGenerator> synthesized.
+
+
+Synthesizing Unit <SynchronizationCalculator>.
+    Related source file is "/home/student2/t11ngo/COE758/Project 2/VGAController/SynchronizationCalculator.vhd".
+    Found 32-bit register for signal <Cl_Hcount>.
+    Found 1-bit register for signal <H>.
+    Found 1-bit register for signal <V>.
+    Found 32-bit register for signal <CL_Vcount>.
+    Found 32-bit comparator less for signal <CL_Vcount$cmp_lt0000> created at line 62.
+    Found 32-bit comparator greatequal for signal <H$cmp_ge0000> created at line 77.
+    Found 32-bit comparator less for signal <H$cmp_lt0000> created at line 77.
+    Found 32-bit up counter for signal <Hcount>.
+    Found 32-bit comparator greatequal for signal <V$cmp_ge0000> created at line 83.
+    Found 32-bit comparator less for signal <V$cmp_lt0000> created at line 83.
+    Found 32-bit up counter for signal <Vcount>.
+    Found 32-bit comparator less for signal <Vcount$cmp_lt0000> created at line 68.
+    Summary:
+	inferred   2 Counter(s).
+	inferred  66 D-type flip-flop(s).
+	inferred   6 Comparator(s).
+Unit <SynchronizationCalculator> synthesized.
+
+
+Synthesizing Unit <ColorLogic>.
+    Related source file is "/home/student2/t11ngo/COE758/Project 2/VGAController/GameLogic.vhd".
+WARNING:Xst:647 - Input <Vcount> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <Player1YPosition> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <Hcount> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <BallYPosition> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <BallXPosition> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <Player2YPosition> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+Unit <ColorLogic> synthesized.
+
+
+Synthesizing Unit <MovementLogic>.
+    Related source file is "/home/student2/t11ngo/COE758/Project 2/VGAController/MovementLogic.vhd".
+WARNING:Xst:647 - Input <SW0> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1305 - Output <Player2YPosition> is never assigned. Tied to value 00000000000000000000000000000000.
+WARNING:Xst:653 - Signal <toPlayer2YPosition> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000000000111100.
+WARNING:Xst:653 - Signal <Player2XPosition> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000001001000100.
+WARNING:Xst:653 - Signal <Player1XPosition> is used but never assigned. This sourceless signal will be automatically connected to value 00000000000000000000000000110010.
+    Found 32-bit register for signal <Player1YPosition>.
+    Found 32-bit register for signal <BallYPosition>.
+    Found 32-bit register for signal <BallXPosition>.
+    Found 32-bit adder for signal <BallXPosition$addsub0000> created at line 109.
+    Found 32-bit adder for signal <BallXPosition$addsub0001> created at line 123.
+    Found 32-bit comparator greatequal for signal <BallXPosition$cmp_ge0000> created at line 109.
+    Found 32-bit comparator greatequal for signal <BallXPosition$cmp_ge0001> created at line 109.
+    Found 32-bit comparator greatequal for signal <BallXPosition$cmp_ge0002> created at line 116.
+    Found 32-bit comparator greatequal for signal <BallXPosition$cmp_ge0003> created at line 116.
+    Found 32-bit comparator greatequal for signal <BallXPosition$cmp_ge0004> created at line 123.
+    Found 32-bit comparator greatequal for signal <BallXPosition$cmp_ge0005> created at line 123.
+    Found 32-bit comparator greatequal for signal <BallXPosition$cmp_ge0006> created at line 130.
+    Found 32-bit comparator greatequal for signal <BallXPosition$cmp_ge0007> created at line 119.
+    Found 32-bit comparator greatequal for signal <BallXPosition$cmp_ge0008> created at line 107.
+    Found 32-bit comparator less for signal <BallXPosition$cmp_lt0000> created at line 109.
+    Found 32-bit comparator less for signal <BallXPosition$cmp_lt0001> created at line 109.
+    Found 32-bit comparator less for signal <BallXPosition$cmp_lt0002> created at line 116.
+    Found 32-bit comparator less for signal <BallXPosition$cmp_lt0003> created at line 116.
+    Found 32-bit comparator less for signal <BallXPosition$cmp_lt0004> created at line 123.
+    Found 32-bit comparator less for signal <BallXPosition$cmp_lt0005> created at line 123.
+    Found 32-bit comparator less for signal <BallXPosition$cmp_lt0006> created at line 107.
+    Found 32-bit 4-to-1 multiplexer for signal <BallXPosition$mux0000>.
+    Found 32-bit adder for signal <BallYPosition$add0000> created at line 145.
+    Found 32-bit adder for signal <BallYPosition$add0001> created at line 107.
+    Found 32-bit adder for signal <BallYPosition$add0002> created at line 119.
+    Found 32-bit adder for signal <BallYPosition$add0003> created at line 119.
+    Found 32-bit comparator greatequal for signal <BallYPosition$cmp_ge0000> created at line 107.
+    Found 32-bit comparator greatequal for signal <BallYPosition$cmp_ge0001> created at line 119.
+    Found 32-bit comparator less for signal <BallYPosition$cmp_lt0000> created at line 107.
+    Found 32-bit comparator less for signal <BallYPosition$cmp_lt0001> created at line 119.
+    Found 32-bit subtractor for signal <BallYPosition$sub0000> created at line 143.
+    Found 32-bit register for signal <toBallXPosition>.
+    Found 32-bit comparator greatequal for signal <toBallXPosition$cmp_ge0000> created at line 107.
+    Found 32-bit comparator greatequal for signal <toBallXPosition$cmp_ge0001> created at line 119.
+    Found 32-bit addsub for signal <toBallXPosition$share0000> created at line 112.
+    Found 32-bit register for signal <toBallYPosition>.
+    Found 32-bit adder for signal <toBallYPosition$add0000> created at line 145.
+    Found 32-bit adder for signal <toBallYPosition$addsub0000> created at line 147.
+    Found 32-bit comparator greatequal for signal <toBallYPosition$cmp_ge0000> created at line 145.
+    Found 32-bit comparator lessequal for signal <toBallYPosition$cmp_le0000> created at line 143.
+    Found 32-bit 4-to-1 multiplexer for signal <toBallYPosition$mux0000>.
+    Found 32-bit register for signal <toPlayer1YPosition>.
+    Found 32-bit 4-to-1 multiplexer for signal <toPlayer1YPosition$mux0005>.
+    Found 32-bit addsub for signal <toPlayer1YPosition$share0000>.
+    Summary:
+	inferred 192 D-type flip-flop(s).
+	inferred  11 Adder/Subtractor(s).
+	inferred  24 Comparator(s).
+	inferred  96 Multiplexer(s).
+Unit <MovementLogic> synthesized.
+
+
+Synthesizing Unit <VideoGameProcessor>.
+    Related source file is "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.vhd".
+WARNING:Xst:647 - Input <SW2> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <SW3> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:1780 - Signal <testRout> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <testGout> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <testBout> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <VideoGameProcessor> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 11
+ 32-bit adder                                          : 8
+ 32-bit addsub                                         : 2
+ 32-bit subtractor                                     : 1
+# Counters                                             : 3
+ 32-bit up counter                                     : 3
+# Registers                                            : 12
+ 1-bit register                                        : 4
+ 32-bit register                                       : 8
+# Comparators                                          : 30
+ 32-bit comparator greatequal                          : 16
+ 32-bit comparator less                                : 13
+ 32-bit comparator lessequal                           : 1
+# Multiplexers                                         : 3
+ 32-bit 4-to-1 multiplexer                             : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1290 - Hierarchical block <sys_MovementLogic> is unconnected in block <VideoGameProcessor>.
+   It will be removed from the design.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 11
+ 32-bit adder                                          : 8
+ 32-bit addsub                                         : 2
+ 32-bit subtractor                                     : 1
+# Counters                                             : 2
+ 32-bit up counter                                     : 2
+# Registers                                            : 260
+ Flip-Flops                                            : 260
+# Comparators                                          : 30
+ 32-bit comparator greatequal                          : 16
+ 32-bit comparator less                                : 13
+ 32-bit comparator lessequal                           : 1
+# Multiplexers                                         : 3
+ 32-bit 4-to-1 multiplexer                             : 3
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <VideoGameProcessor> ...
+
+Optimizing unit <SynchronizationCalculator> ...
+
+Optimizing unit <MovementLogic> ...
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/CL_Vcount_31> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/CL_Vcount_30> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/CL_Vcount_29> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/CL_Vcount_28> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/CL_Vcount_27> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/CL_Vcount_26> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/CL_Vcount_25> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/CL_Vcount_24> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/CL_Vcount_23> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/CL_Vcount_22> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/CL_Vcount_21> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/CL_Vcount_20> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/CL_Vcount_19> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/CL_Vcount_18> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/CL_Vcount_17> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/CL_Vcount_16> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/CL_Vcount_15> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/CL_Vcount_14> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/CL_Vcount_13> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/CL_Vcount_12> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/CL_Vcount_11> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/CL_Vcount_10> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/CL_Vcount_9> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/CL_Vcount_8> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/CL_Vcount_7> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/CL_Vcount_6> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/CL_Vcount_5> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/CL_Vcount_4> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/CL_Vcount_3> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/CL_Vcount_2> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/CL_Vcount_1> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/CL_Vcount_0> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/Cl_Hcount_31> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/Cl_Hcount_30> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/Cl_Hcount_29> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/Cl_Hcount_28> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/Cl_Hcount_27> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/Cl_Hcount_26> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/Cl_Hcount_25> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/Cl_Hcount_24> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/Cl_Hcount_23> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/Cl_Hcount_22> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/Cl_Hcount_21> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/Cl_Hcount_20> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/Cl_Hcount_19> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/Cl_Hcount_18> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/Cl_Hcount_17> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/Cl_Hcount_16> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/Cl_Hcount_15> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/Cl_Hcount_14> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/Cl_Hcount_13> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/Cl_Hcount_12> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/Cl_Hcount_11> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/Cl_Hcount_10> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/Cl_Hcount_9> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/Cl_Hcount_8> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/Cl_Hcount_7> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/Cl_Hcount_6> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/Cl_Hcount_5> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/Cl_Hcount_4> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/Cl_Hcount_3> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/Cl_Hcount_2> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/Cl_Hcount_1> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_SynchronizationCalculator/Cl_Hcount_0> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallYPosition_31> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallYPosition_30> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallYPosition_29> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallYPosition_28> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallYPosition_27> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallYPosition_26> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallYPosition_25> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallYPosition_24> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallYPosition_23> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallYPosition_22> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallYPosition_21> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallYPosition_20> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallYPosition_19> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallYPosition_18> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallYPosition_17> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallYPosition_16> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallYPosition_15> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallYPosition_14> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallYPosition_13> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallYPosition_12> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallYPosition_11> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallYPosition_10> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallYPosition_9> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallYPosition_8> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallYPosition_7> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallYPosition_6> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallYPosition_5> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallYPosition_4> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallYPosition_3> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallYPosition_2> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallYPosition_1> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallYPosition_0> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallYPosition_31> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallYPosition_30> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallYPosition_29> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallYPosition_28> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallYPosition_27> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallYPosition_26> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallYPosition_25> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallYPosition_24> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallYPosition_23> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallYPosition_22> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallYPosition_21> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallYPosition_20> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallYPosition_19> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallYPosition_18> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallYPosition_17> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallYPosition_16> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallYPosition_15> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallYPosition_14> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallYPosition_13> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallYPosition_12> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallYPosition_11> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallYPosition_10> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallYPosition_9> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallYPosition_8> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallYPosition_7> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallYPosition_6> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallYPosition_5> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallYPosition_4> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallYPosition_3> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallYPosition_2> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallYPosition_1> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallYPosition_0> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/Player1YPosition_31> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/Player1YPosition_30> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/Player1YPosition_29> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/Player1YPosition_28> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/Player1YPosition_27> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/Player1YPosition_26> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/Player1YPosition_25> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/Player1YPosition_24> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/Player1YPosition_23> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/Player1YPosition_22> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/Player1YPosition_21> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/Player1YPosition_20> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/Player1YPosition_19> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/Player1YPosition_18> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/Player1YPosition_17> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/Player1YPosition_16> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/Player1YPosition_15> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/Player1YPosition_14> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/Player1YPosition_13> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/Player1YPosition_12> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/Player1YPosition_11> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/Player1YPosition_10> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/Player1YPosition_9> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/Player1YPosition_8> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/Player1YPosition_7> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/Player1YPosition_6> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/Player1YPosition_5> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/Player1YPosition_4> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/Player1YPosition_3> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/Player1YPosition_2> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/Player1YPosition_1> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/Player1YPosition_0> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallXPosition_31> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallXPosition_30> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallXPosition_29> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallXPosition_28> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallXPosition_27> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallXPosition_26> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallXPosition_25> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallXPosition_24> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallXPosition_23> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallXPosition_22> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallXPosition_21> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallXPosition_20> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallXPosition_19> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallXPosition_18> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallXPosition_17> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallXPosition_16> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallXPosition_15> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallXPosition_14> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallXPosition_13> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallXPosition_12> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallXPosition_11> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallXPosition_10> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallXPosition_9> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallXPosition_8> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallXPosition_7> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallXPosition_6> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallXPosition_5> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallXPosition_4> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallXPosition_3> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallXPosition_2> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallXPosition_1> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/BallXPosition_0> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toPlayer1YPosition_31> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toPlayer1YPosition_30> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toPlayer1YPosition_29> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toPlayer1YPosition_28> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toPlayer1YPosition_27> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toPlayer1YPosition_26> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toPlayer1YPosition_25> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toPlayer1YPosition_24> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toPlayer1YPosition_23> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toPlayer1YPosition_22> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toPlayer1YPosition_21> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toPlayer1YPosition_20> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toPlayer1YPosition_19> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toPlayer1YPosition_18> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toPlayer1YPosition_17> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toPlayer1YPosition_16> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toPlayer1YPosition_15> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toPlayer1YPosition_14> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toPlayer1YPosition_13> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toPlayer1YPosition_12> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toPlayer1YPosition_11> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toPlayer1YPosition_10> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toPlayer1YPosition_9> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toPlayer1YPosition_8> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toPlayer1YPosition_7> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toPlayer1YPosition_6> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toPlayer1YPosition_5> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toPlayer1YPosition_4> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toPlayer1YPosition_3> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toPlayer1YPosition_2> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toPlayer1YPosition_1> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toPlayer1YPosition_0> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallXPosition_31> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallXPosition_30> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallXPosition_29> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallXPosition_28> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallXPosition_27> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallXPosition_26> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallXPosition_25> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallXPosition_24> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallXPosition_23> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallXPosition_22> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallXPosition_21> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallXPosition_20> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallXPosition_19> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallXPosition_18> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallXPosition_17> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallXPosition_16> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallXPosition_15> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallXPosition_14> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallXPosition_13> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallXPosition_12> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallXPosition_11> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallXPosition_10> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallXPosition_9> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallXPosition_8> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallXPosition_7> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallXPosition_6> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallXPosition_5> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallXPosition_4> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallXPosition_3> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallXPosition_2> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallXPosition_1> of sequential type is unconnected in block <VideoGameProcessor>.
+WARNING:Xst:2677 - Node <sys_MovementLogic/toBallXPosition_0> of sequential type is unconnected in block <VideoGameProcessor>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block VideoGameProcessor, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 68
+ Flip-Flops                                            : 68
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : VideoGameProcessor.ngr
+Top Level Output File Name         : VideoGameProcessor
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 32
+
+Cell Usage :
+# BELS                             : 335
+#      GND                         : 1
+#      INV                         : 19
+#      LUT1                        : 70
+#      LUT2                        : 8
+#      LUT3                        : 5
+#      LUT4                        : 37
+#      MUXCY                       : 130
+#      VCC                         : 1
+#      XORCY                       : 64
+# FlipFlops/Latches                : 68
+#      FD                          : 1
+#      FDR                         : 35
+#      FDRE                        : 32
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 27
+#      OBUF                        : 27
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                       72  out of   4656     1%  
+ Number of Slice Flip Flops:             68  out of   9312     0%  
+ Number of 4 input LUTs:                139  out of   9312     1%  
+ Number of IOs:                          32
+ Number of bonded IOBs:                  28  out of    232    12%  
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 2     |
+sys_ClockGenerator/DAC_Clk1        | BUFG                   | 66    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 5.902ns (Maximum Frequency: 169.429MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 4.063ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 1.689ns (frequency: 592.084MHz)
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Delay:               1.689ns (Levels of Logic = 0)
+  Source:            sys_ClockGenerator/tempClock (FF)
+  Destination:       sys_ClockGenerator/tempClock (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: sys_ClockGenerator/tempClock to sys_ClockGenerator/tempClock
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.514   0.380  sys_ClockGenerator/tempClock (sys_ClockGenerator/tempClock)
+     FDR:R                     0.795          sys_ClockGenerator/tempClock
+    ----------------------------------------
+    Total                      1.689ns (1.309ns logic, 0.380ns route)
+                                       (77.5% logic, 22.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'sys_ClockGenerator/DAC_Clk1'
+  Clock period: 5.902ns (frequency: 169.429MHz)
+  Total number of paths / destination ports: 5216 / 162
+-------------------------------------------------------------------------
+Delay:               5.902ns (Levels of Logic = 11)
+  Source:            sys_SynchronizationCalculator/Hcount_0 (FF)
+  Destination:       sys_SynchronizationCalculator/Hcount_31 (FF)
+  Source Clock:      sys_ClockGenerator/DAC_Clk1 rising
+  Destination Clock: sys_ClockGenerator/DAC_Clk1 rising
+
+  Data Path: sys_SynchronizationCalculator/Hcount_0 to sys_SynchronizationCalculator/Hcount_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              4   0.514   0.651  sys_SynchronizationCalculator/Hcount_0 (sys_SynchronizationCalculator/Hcount_0)
+     LUT4:I0->O            1   0.612   0.000  sys_SynchronizationCalculator/Mcompar_H_cmp_lt0000_lut<0>2 (sys_SynchronizationCalculator/Mcompar_H_cmp_lt0000_lut<0>2)
+     MUXCY:S->O            1   0.404   0.000  sys_SynchronizationCalculator/Mcompar_H_cmp_lt0000_cy<0>_1 (sys_SynchronizationCalculator/Mcompar_H_cmp_lt0000_cy<0>2)
+     MUXCY:CI->O           1   0.052   0.000  sys_SynchronizationCalculator/Mcompar_H_cmp_lt0000_cy<1>_1 (sys_SynchronizationCalculator/Mcompar_H_cmp_lt0000_cy<1>2)
+     MUXCY:CI->O           1   0.052   0.000  sys_SynchronizationCalculator/Mcompar_H_cmp_lt0000_cy<2>_1 (sys_SynchronizationCalculator/Mcompar_H_cmp_lt0000_cy<2>2)
+     MUXCY:CI->O           1   0.052   0.000  sys_SynchronizationCalculator/Mcompar_H_cmp_lt0000_cy<3>_1 (sys_SynchronizationCalculator/Mcompar_H_cmp_lt0000_cy<3>2)
+     MUXCY:CI->O           1   0.052   0.000  sys_SynchronizationCalculator/Mcompar_H_cmp_lt0000_cy<4>_1 (sys_SynchronizationCalculator/Mcompar_H_cmp_lt0000_cy<4>2)
+     MUXCY:CI->O           1   0.052   0.000  sys_SynchronizationCalculator/Mcompar_H_cmp_lt0000_cy<5>_1 (sys_SynchronizationCalculator/Mcompar_H_cmp_lt0000_cy<5>2)
+     MUXCY:CI->O           1   0.052   0.000  sys_SynchronizationCalculator/Mcompar_H_cmp_lt0000_cy<6>_1 (sys_SynchronizationCalculator/Mcompar_H_cmp_lt0000_cy<6>2)
+     MUXCY:CI->O           1   0.052   0.000  sys_SynchronizationCalculator/Mcompar_H_cmp_lt0000_cy<7>_1 (sys_SynchronizationCalculator/Mcompar_H_cmp_lt0000_cy<7>2)
+     MUXCY:CI->O           3   0.399   0.481  sys_SynchronizationCalculator/Mcompar_H_cmp_lt0000_cy<8>_1 (sys_SynchronizationCalculator/Mcompar_H_cmp_lt0000_cy<8>2)
+     LUT3:I2->O           32   0.612   1.073  sys_SynchronizationCalculator/Mcompar_H_cmp_lt0000_cy<10>_11 (sys_SynchronizationCalculator/Mcompar_H_cmp_lt0000_cy<10>2)
+     FDR:R                     0.795          sys_SynchronizationCalculator/Hcount_0
+    ----------------------------------------
+    Total                      5.902ns (3.697ns logic, 2.205ns route)
+                                       (62.6% logic, 37.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.063ns (Levels of Logic = 1)
+  Source:            sys_ClockGenerator/DAC_Clk (FF)
+  Destination:       DAC_CLK (PAD)
+  Source Clock:      clk rising
+
+  Data Path: sys_ClockGenerator/DAC_Clk to DAC_CLK
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.514   0.380  sys_ClockGenerator/DAC_Clk (sys_ClockGenerator/DAC_Clk1)
+     OBUF:I->O                 3.169          DAC_CLK_OBUF (DAC_CLK)
+    ----------------------------------------
+    Total                      4.063ns (3.683ns logic, 0.380ns route)
+                                       (90.6% logic, 9.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'sys_ClockGenerator/DAC_Clk1'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              4.040ns (Levels of Logic = 1)
+  Source:            sys_SynchronizationCalculator/H (FF)
+  Destination:       H (PAD)
+  Source Clock:      sys_ClockGenerator/DAC_Clk1 rising
+
+  Data Path: sys_SynchronizationCalculator/H to H
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              1   0.514   0.357  sys_SynchronizationCalculator/H (sys_SynchronizationCalculator/H)
+     OBUF:I->O                 3.169          H_OBUF (H)
+    ----------------------------------------
+    Total                      4.040ns (3.683ns logic, 0.357ns route)
+                                       (91.2% logic, 8.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 4.92 secs
+ 
+--> 
+
+
+Total memory usage is 656660 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  273 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+
