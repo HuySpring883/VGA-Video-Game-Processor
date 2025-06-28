@@ -1,0 +1,10 @@
+EN colorlogic NULL "/home/student2/t11ngo/COE758/Project 2/VGAController/GameLogic.vhd" sub00/vhpl06 1701100237
+EN clockgenerator NULL "/home/student2/t11ngo/COE758/Project 2/VGAController/ClockGenerator.vhd" sub00/vhpl02 1701100233
+AR videogameprocessor behavioral "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.vhd" sub00/vhpl01 1701100242
+AR movementlogic behavioral "/home/student2/t11ngo/COE758/Project 2/VGAController/MovementLogic.vhd" sub00/vhpl09 1701100240
+AR synchronizationcalculator behavioral "/home/student2/t11ngo/COE758/Project 2/VGAController/SynchronizationCalculator.vhd" sub00/vhpl05 1701375911
+AR colorlogic behavioral "/home/student2/t11ngo/COE758/Project 2/VGAController/GameLogic.vhd" sub00/vhpl07 1701100238
+EN synchronizationcalculator NULL "/home/student2/t11ngo/COE758/Project 2/VGAController/SynchronizationCalculator.vhd" sub00/vhpl04 1701375910
+EN movementlogic NULL "/home/student2/t11ngo/COE758/Project 2/VGAController/MovementLogic.vhd" sub00/vhpl08 1701100239
+EN videogameprocessor NULL "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.vhd" sub00/vhpl00 1701100241
+AR clockgenerator behavioral "/home/student2/t11ngo/COE758/Project 2/VGAController/ClockGenerator.vhd" sub00/vhpl03 1701100234

@@ -1,0 +1,37 @@
+V3 19
+FL "/home/student2/t11ngo/COE758/Project 2/VGAController/ClockGenerator.vhd" 2023/11/27.10:10:18 O.87xd
+EN work/ClockGenerator 1701100233 \
+      FL "/home/student2/t11ngo/COE758/Project 2/VGAController/ClockGenerator.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/ClockGenerator/Behavioral 1701100234 \
+      FL "/home/student2/t11ngo/COE758/Project 2/VGAController/ClockGenerator.vhd" \
+      EN work/ClockGenerator 1701100233
+FL "/home/student2/t11ngo/COE758/Project 2/VGAController/GameLogic.vhd" 2023/11/27.10:50:20 O.87xd
+EN work/ColorLogic 1701100237 \
+      FL "/home/student2/t11ngo/COE758/Project 2/VGAController/GameLogic.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/ColorLogic/Behavioral 1701100238 \
+      FL "/home/student2/t11ngo/COE758/Project 2/VGAController/GameLogic.vhd" \
+      EN work/ColorLogic 1701100237
+FL "/home/student2/t11ngo/COE758/Project 2/VGAController/MovementLogic.vhd" 2023/11/26.21:05:11 O.87xd
+EN work/MovementLogic 1701100239 \
+      FL "/home/student2/t11ngo/COE758/Project 2/VGAController/MovementLogic.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/MovementLogic/Behavioral 1701100240 \
+      FL "/home/student2/t11ngo/COE758/Project 2/VGAController/MovementLogic.vhd" \
+      EN work/MovementLogic 1701100239
+FL "/home/student2/t11ngo/COE758/Project 2/VGAController/SynchronizationCalculator.vhd" 2023/11/30.15:24:51 O.87xd
+EN work/SynchronizationCalculator 1701375910 \
+      FL "/home/student2/t11ngo/COE758/Project 2/VGAController/SynchronizationCalculator.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/SynchronizationCalculator/Behavioral 1701375911 \
+      FL "/home/student2/t11ngo/COE758/Project 2/VGAController/SynchronizationCalculator.vhd" \
+      EN work/SynchronizationCalculator 1701375910
+FL "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.vhd" 2023/11/27.10:07:33 O.87xd
+EN work/VideoGameProcessor 1701100241 \
+      FL "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.vhd" \
+      PB ieee/std_logic_1164 1325952872
+AR work/VideoGameProcessor/Behavioral 1701100242 \
+      FL "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.vhd" \
+      EN work/VideoGameProcessor 1701100241 CP ClockGenerator \
+      CP SynchronizationCalculator CP ColorLogic CP MovementLogic
