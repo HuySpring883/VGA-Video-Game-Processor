@@ -1,0 +1,10 @@
+[Inputs]
+Clk
+SW0
+SW1
+[Outputs]
+Player1YPosition
+Player2YPosition
+BallXPosition
+BallYPosition
+[BiDir]

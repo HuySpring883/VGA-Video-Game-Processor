@@ -1,0 +1,289 @@
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 
+xst -intstyle ise -ifn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.xst" -ofn "/home/student2/t11ngo/COE758/Project 2/VGAController/VideoGameProcessor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PinAssignments.ucf -p xc3s500e-fg320-5 "VideoGameProcessor.ngc" VideoGameProcessor.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o VideoGameProcessor_map.ncd VideoGameProcessor.ngd VideoGameProcessor.pcf 
+par -w -intstyle ise -ol high -t 1 VideoGameProcessor_map.ncd VideoGameProcessor.ncd VideoGameProcessor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml VideoGameProcessor.twx VideoGameProcessor.ncd -o VideoGameProcessor.twr VideoGameProcessor.pcf -ucf PinAssignments.ucf 
+bitgen -intstyle ise -f VideoGameProcessor.ut VideoGameProcessor.ncd 

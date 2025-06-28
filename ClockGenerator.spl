@@ -1,0 +1,5 @@
+[Inputs]
+Clk
+[Outputs]
+DAC_Clk
+[BiDir]

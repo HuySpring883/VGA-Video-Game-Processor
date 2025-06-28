@@ -1,0 +1,12 @@
+[Inputs]
+Hcount
+Vcount
+BallXPosition
+BallYPosition
+Player1YPosition
+Player2YPosition
+[Outputs]
+=toRout[7:0]=
+=toGout[7:0]=
+=toBout[7:0]=
+[BiDir]

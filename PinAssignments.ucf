@@ -1,0 +1,44 @@
+
+# 50 MHz input clock.
+net "clk" loc = "c9";
+
+# Synchronization signals.
+net "H" loc = "c5";
+net "V" loc = "d5";
+
+# Pixel clock for the video DAC.
+net "DAC_CLK" loc = "a4";
+
+# Red channel pins.
+net "Rout<0>" loc = "a6";
+net "Rout<1>" loc = "b6";
+net "Rout<2>" loc = "e7";
+net "Rout<3>" loc = "f7";
+net "Rout<4>" loc = "d7";
+net "Rout<5>" loc = "c7";
+net "Rout<6>" loc = "f8";
+net "Rout<7>" loc = "e8";
+
+# Green channel pins.
+net "Gout<0>" loc = "f9";
+net "Gout<1>" loc = "e9";
+net "Gout<2>" loc = "d11";
+net "Gout<3>" loc = "c11";
+net "Gout<4>" loc = "f11";
+net "Gout<5>" loc = "e11";
+net "Gout<6>" loc = "e12";
+net "Gout<7>" loc = "f12";
+
+# Blue channel pins.
+net "Bout<0>" loc = "a13";
+net "Bout<1>" loc = "b13";
+net "Bout<2>" loc = "a14";
+net "Bout<3>" loc = "b14";
+net "Bout<4>" loc = "c14";
+net "Bout<5>" loc = "d14";
+net "Bout<6>" loc = "a16";
+net "Bout<7>" loc = "b16";
+
+# On-board switches.
+net "SW0" loc = "N17";
+net "SW1" loc = "H18";

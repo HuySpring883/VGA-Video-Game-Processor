@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="VGAController.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ClockGenerator.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="ClockGenerator.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="ClockGenerator.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="ClockGenerator.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="ClockGenerator.vhi"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="ClockGenerator.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ColorLogic.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="ColorLogic.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="ColorLogic.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="ColorLogic.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="ColorLogic.vhi"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="ColorLogic.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MovementLogic.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="MovementLogic.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="MovementLogic.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="MovementLogic.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="MovementLogic.vhi"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="MovementLogic.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="SynchronizationCalculator.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="SynchronizationCalculator.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="SynchronizationCalculator.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="SynchronizationCalculator.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="SynchronizationCalculator.vhi"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="SynchronizationCalculator.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="VideoGameProcessor.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="VideoGameProcessor.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="VideoGameProcessor.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="VideoGameProcessor.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="VideoGameProcessor.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="VideoGameProcessor.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="VideoGameProcessor.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="VideoGameProcessor.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="VideoGameProcessor.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="VideoGameProcessor.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="VideoGameProcessor.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="VideoGameProcessor.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="VideoGameProcessor.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="VideoGameProcessor.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="VideoGameProcessor.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="VideoGameProcessor.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="VideoGameProcessor.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="VideoGameProcessor.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="VideoGameProcessor.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="VideoGameProcessor.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="VideoGameProcessor.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="VideoGameProcessor.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="VideoGameProcessor.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="VideoGameProcessor_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="VideoGameProcessor_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="VideoGameProcessor_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="VideoGameProcessor_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="VideoGameProcessor_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="VideoGameProcessor_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="VideoGameProcessor_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="VideoGameProcessor_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="VideoGameProcessor_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="VideoGameProcessor_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="VideoGameProcessor_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="VideoGameProcessor_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="VideoGameProcessor_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="VideoGameProcessor_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="VideoGameProcessor_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="VideoGameProcessor_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1701039866" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1701039866">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1701041995" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="7221151847982478646" xil_pn:start_ts="1701041995">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+    <transform xil_pn:end_ts="1701041995" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-4396831317996887491" xil_pn:start_ts="1701041995">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1701041995" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1701041995">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1701041995" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-1515314245748426764" xil_pn:start_ts="1701041995">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1701041995" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297158069842" xil_pn:start_ts="1701041995">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1701041995" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="1881889353938500935" xil_pn:start_ts="1701041995">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1701100238" xil_pn:in_ck="-5312771146058685167" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-6560937086996761318" xil_pn:start_ts="1701100229">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="VideoGameProcessor.lso"/>
+      <outfile xil_pn:name="VideoGameProcessor.ngc"/>
+      <outfile xil_pn:name="VideoGameProcessor.ngr"/>
+      <outfile xil_pn:name="VideoGameProcessor.prj"/>
+      <outfile xil_pn:name="VideoGameProcessor.stx"/>
+      <outfile xil_pn:name="VideoGameProcessor.syr"/>
+      <outfile xil_pn:name="VideoGameProcessor.xst"/>
+      <outfile xil_pn:name="VideoGameProcessor_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1701096515" xil_pn:in_ck="6681355772766656543" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-1633549210771858007" xil_pn:start_ts="1701096515">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1701100243" xil_pn:in_ck="7660720378037161046" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-3981306746101964214" xil_pn:start_ts="1701100238">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="VideoGameProcessor.bld"/>
+      <outfile xil_pn:name="VideoGameProcessor.ngd"/>
+      <outfile xil_pn:name="VideoGameProcessor_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1701100247" xil_pn:in_ck="7660720378037161047" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1309755933173654900" xil_pn:start_ts="1701100243">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="VideoGameProcessor.pcf"/>
+      <outfile xil_pn:name="VideoGameProcessor_map.map"/>
+      <outfile xil_pn:name="VideoGameProcessor_map.mrp"/>
+      <outfile xil_pn:name="VideoGameProcessor_map.ncd"/>
+      <outfile xil_pn:name="VideoGameProcessor_map.ngm"/>
+      <outfile xil_pn:name="VideoGameProcessor_map.xrpt"/>
+      <outfile xil_pn:name="VideoGameProcessor_summary.xml"/>
+      <outfile xil_pn:name="VideoGameProcessor_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1701100260" xil_pn:in_ck="6161886414398123760" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1701100247">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="VideoGameProcessor.ncd"/>
+      <outfile xil_pn:name="VideoGameProcessor.pad"/>
+      <outfile xil_pn:name="VideoGameProcessor.par"/>
+      <outfile xil_pn:name="VideoGameProcessor.ptwx"/>
+      <outfile xil_pn:name="VideoGameProcessor.unroutes"/>
+      <outfile xil_pn:name="VideoGameProcessor.xpi"/>
+      <outfile xil_pn:name="VideoGameProcessor_pad.csv"/>
+      <outfile xil_pn:name="VideoGameProcessor_pad.txt"/>
+      <outfile xil_pn:name="VideoGameProcessor_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1701100264" xil_pn:in_ck="-7899874417996662156" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1701100260">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="VideoGameProcessor.bgn"/>
+      <outfile xil_pn:name="VideoGameProcessor.bit"/>
+      <outfile xil_pn:name="VideoGameProcessor.drc"/>
+      <outfile xil_pn:name="VideoGameProcessor.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1701100266" xil_pn:in_ck="-7899874417996675010" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="5582947192412673156" xil_pn:start_ts="1701100264">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1701100260" xil_pn:in_ck="7660720378037160915" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416187" xil_pn:start_ts="1701100257">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="VideoGameProcessor.twr"/>
+      <outfile xil_pn:name="VideoGameProcessor.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

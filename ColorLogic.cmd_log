@@ -1,0 +1,4 @@
+vhdtdtfi -prj VGAController -o "/home/student2/t11ngo/COE758/Project 2/VGAController/ColorLogic.vhi" -module ColorLogic -template /CMC/tools/xilinx/13.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work GameLogic.vhd 
+vhdtdtfi -prj VGAController -o "/home/student2/t11ngo/COE758/Project 2/VGAController/ColorLogic.vhi" -module ColorLogic -template /CMC/tools/xilinx/13.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work GameLogic.vhd 
+vhdtdtfi -lib work GameLogic.vhd -prj VGAController -o ColorLogic.spl -module ColorLogic -template /CMC/tools/xilinx/13.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e ColorLogic.spl {/home/student2/t11ngo/COE758/Project 2/VGAController/ColorLogic.sym} 

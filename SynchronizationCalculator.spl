@@ -1,0 +1,9 @@
+[Inputs]
+Clk
+SW3
+[Outputs]
+Cl_Hcount
+CL_Vcount
+H
+V
+[BiDir]

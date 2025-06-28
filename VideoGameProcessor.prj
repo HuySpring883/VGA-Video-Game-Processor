@@ -1,0 +1,5 @@
+vhdl work "SynchronizationCalculator.vhd"
+vhdl work "MovementLogic.vhd"
+vhdl work "GameLogic.vhd"
+vhdl work "ClockGenerator.vhd"
+vhdl work "VideoGameProcessor.vhd"

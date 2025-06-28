@@ -1,0 +1,5 @@
+set -tmpdir "/home/student2/t11ngo/COE758/Project 2/VGAController/xst/projnav.tmp"
+set -xsthdpdir "/home/student2/t11ngo/COE758/Project 2/VGAController/xst"
+elaborate
+-ifn ColorLogic.prj
+-ifmt mixed
