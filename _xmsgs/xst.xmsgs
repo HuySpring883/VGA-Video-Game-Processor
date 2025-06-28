@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">Vcount</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">Player1YPosition</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">Hcount</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">BallYPosition</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">BallXPosition</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">Player2YPosition</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SW0</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="1305" delta="old" >Output &lt;<arg fmt="%s" index="1">Player2YPosition</arg>&gt; is never assigned. Tied to value <arg fmt="%s" index="2">00000000000000000000000000000000</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">toPlayer2YPosition</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">00000000000000000000000000111100</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">Player2XPosition</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">00000000000000000000001001000100</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">Player1XPosition</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">00000000000000000000000000110010</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SW2</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">SW3</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">testRout</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">testGout</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">testBout</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="warning" file="Xst" num="1290" delta="old" >Hierarchical block &lt;<arg fmt="%s" index="1">sys_MovementLogic</arg>&gt; is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+It will be removed from the design.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/CL_Vcount_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/CL_Vcount_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/CL_Vcount_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/CL_Vcount_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/CL_Vcount_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/CL_Vcount_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/CL_Vcount_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/CL_Vcount_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/CL_Vcount_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/CL_Vcount_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/CL_Vcount_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/CL_Vcount_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/CL_Vcount_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/CL_Vcount_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/CL_Vcount_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/CL_Vcount_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/CL_Vcount_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/CL_Vcount_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/CL_Vcount_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/CL_Vcount_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/CL_Vcount_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/CL_Vcount_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/CL_Vcount_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/CL_Vcount_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/CL_Vcount_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/CL_Vcount_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/CL_Vcount_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/CL_Vcount_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/CL_Vcount_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/CL_Vcount_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/CL_Vcount_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/CL_Vcount_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/Cl_Hcount_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/Cl_Hcount_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/Cl_Hcount_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/Cl_Hcount_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/Cl_Hcount_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/Cl_Hcount_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/Cl_Hcount_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/Cl_Hcount_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/Cl_Hcount_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/Cl_Hcount_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/Cl_Hcount_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/Cl_Hcount_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/Cl_Hcount_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/Cl_Hcount_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/Cl_Hcount_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/Cl_Hcount_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/Cl_Hcount_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/Cl_Hcount_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/Cl_Hcount_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/Cl_Hcount_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/Cl_Hcount_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/Cl_Hcount_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/Cl_Hcount_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/Cl_Hcount_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/Cl_Hcount_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/Cl_Hcount_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/Cl_Hcount_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/Cl_Hcount_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/Cl_Hcount_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/Cl_Hcount_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/Cl_Hcount_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_SynchronizationCalculator/Cl_Hcount_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallYPosition_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallYPosition_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallYPosition_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallYPosition_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallYPosition_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallYPosition_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallYPosition_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallYPosition_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallYPosition_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallYPosition_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallYPosition_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallYPosition_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallYPosition_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallYPosition_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallYPosition_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallYPosition_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallYPosition_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallYPosition_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallYPosition_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallYPosition_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallYPosition_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallYPosition_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallYPosition_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallYPosition_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallYPosition_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallYPosition_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallYPosition_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallYPosition_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallYPosition_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallYPosition_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallYPosition_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallYPosition_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallYPosition_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallYPosition_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallYPosition_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallYPosition_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallYPosition_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallYPosition_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallYPosition_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallYPosition_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallYPosition_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallYPosition_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallYPosition_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallYPosition_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallYPosition_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallYPosition_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallYPosition_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallYPosition_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallYPosition_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallYPosition_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallYPosition_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallYPosition_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallYPosition_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallYPosition_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallYPosition_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallYPosition_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallYPosition_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallYPosition_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallYPosition_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallYPosition_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallYPosition_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallYPosition_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallYPosition_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallYPosition_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/Player1YPosition_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/Player1YPosition_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/Player1YPosition_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/Player1YPosition_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/Player1YPosition_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/Player1YPosition_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/Player1YPosition_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/Player1YPosition_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/Player1YPosition_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/Player1YPosition_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/Player1YPosition_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/Player1YPosition_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/Player1YPosition_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/Player1YPosition_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/Player1YPosition_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/Player1YPosition_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/Player1YPosition_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/Player1YPosition_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/Player1YPosition_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/Player1YPosition_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/Player1YPosition_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/Player1YPosition_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/Player1YPosition_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/Player1YPosition_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/Player1YPosition_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/Player1YPosition_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/Player1YPosition_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/Player1YPosition_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/Player1YPosition_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/Player1YPosition_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/Player1YPosition_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/Player1YPosition_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallXPosition_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallXPosition_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallXPosition_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallXPosition_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallXPosition_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallXPosition_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallXPosition_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallXPosition_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallXPosition_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallXPosition_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallXPosition_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallXPosition_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallXPosition_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallXPosition_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallXPosition_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallXPosition_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallXPosition_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallXPosition_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallXPosition_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallXPosition_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallXPosition_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallXPosition_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallXPosition_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallXPosition_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallXPosition_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallXPosition_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallXPosition_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallXPosition_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallXPosition_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallXPosition_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallXPosition_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/BallXPosition_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toPlayer1YPosition_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toPlayer1YPosition_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toPlayer1YPosition_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toPlayer1YPosition_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toPlayer1YPosition_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toPlayer1YPosition_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toPlayer1YPosition_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toPlayer1YPosition_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toPlayer1YPosition_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toPlayer1YPosition_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toPlayer1YPosition_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toPlayer1YPosition_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toPlayer1YPosition_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toPlayer1YPosition_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toPlayer1YPosition_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toPlayer1YPosition_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toPlayer1YPosition_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toPlayer1YPosition_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toPlayer1YPosition_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toPlayer1YPosition_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toPlayer1YPosition_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toPlayer1YPosition_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toPlayer1YPosition_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toPlayer1YPosition_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toPlayer1YPosition_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toPlayer1YPosition_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toPlayer1YPosition_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toPlayer1YPosition_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toPlayer1YPosition_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toPlayer1YPosition_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toPlayer1YPosition_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toPlayer1YPosition_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallXPosition_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallXPosition_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallXPosition_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallXPosition_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallXPosition_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallXPosition_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallXPosition_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallXPosition_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallXPosition_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallXPosition_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallXPosition_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallXPosition_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallXPosition_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallXPosition_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallXPosition_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallXPosition_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallXPosition_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallXPosition_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallXPosition_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallXPosition_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallXPosition_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallXPosition_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallXPosition_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallXPosition_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallXPosition_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallXPosition_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallXPosition_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallXPosition_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallXPosition_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallXPosition_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallXPosition_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">sys_MovementLogic/toBallXPosition_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">VideoGameProcessor</arg>&gt;.
+</msg>
+
+</messages>
+
